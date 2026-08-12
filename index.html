@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Textile Design Studio</title>
+
+<style>
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f7f5f1;
+  color:#222;
+}
+
+.hero{
+  background:#202020;
+  color:white;
+  text-align:center;
+  padding:70px 20px;
+}
+
+.hero h1{
+  font-size:42px;
+  margin:0 0 12px;
+}
+
+.hero p{
+  font-size:18px;
+  color:#ddd;
+}
+
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+.container>h2{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.categories{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:white;
+  border-radius:16px;
+  padding:30px;
+  text-align:center;
+  box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.icon{
+  font-size:45px;
+}
+
+.card h2{
+  margin:12px 0;
+}
+
+.card p{
+  color:#666;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:11px 20px;
+  border-radius:30px;
+  background:#222;
+  color:white;
+  text-decoration:none;
+}
+
+.footer{
+  text-align:center;
+  padding:30px;
+  color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+<h1>Textile Design Studio</h1>
+<p>Creative Textile Designs • Prints • Patterns • Color Matching</p>
+</section>
+
+<main class="container">
+
+<h2>Design Categories</h2>
+
+<div class="categories">
+
+<div class="card">
+<div class="icon">🌸</div>
+<h2>Floral</h2>
+<p>Elegant floral textile designs</p>
+<a class="btn" href="#">View Designs</a>
+</div>
+
+<div class="card">
+<div class="icon">🔷</div>
+<h2>Geometric</h2>
+<p>Modern geometric patterns</p>
+<a class="btn" href="#">View Designs</a>
+</div>
+
+<div class="card">
+<div class="icon">🧵</div>
+<h2>Prints</h2>
+<p>Print-ready textile artwork</p>
+<a class="btn" href="#">View Designs</a>
+</div>
+
+<div class="card">
+<div class="icon">🎨</div>
+<h2>Color Matching</h2>
+<p>Professional color development</p>
+<a class="btn" href="#">View Designs</a>
+</div>
+
+</div>
+</main>
+
+<div class="footer">
+© 2026 Textile Design Studio
+</div>
+
+</body>
+</html>
